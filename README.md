@@ -1,3 +1,3 @@
 # Html-Css
-htmCss
+Html-Css
 Cours et excercices html et css
