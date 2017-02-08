@@ -4,3 +4,25 @@
     display: inline-block;
     font-style: italic;
 }
+
+body{
+    background-color: grey;
+    font-style: oblique;
+    text-align: justify;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline; text-decoration-color: black;
+}
+
+h2{
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+}

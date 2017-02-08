@@ -1,0 +1,21 @@
+.part-1{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.part-2{
+    font-family: 'Shadows Into Light',cursive;
+}
+
+body{
+    background: grey;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
