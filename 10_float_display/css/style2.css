@@ -1,0 +1,88 @@
+/*.c1, .c2, .c3, .c4, .c5{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    text-align: center;
+    display: inline-block;
+}*/
+
+.c1{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    /*float: left;*/
+    text-align: center;
+    border-radius: 40% 0;
+    display: inline-block;
+    background-color: blue;
+}
+
+
+.c2{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    /*float: left;*/
+    text-align: center;
+    border-radius: 10% 20% 30% 40%;
+    display: inline-block;
+    background-color: green;
+}
+
+.c3{
+    height: 10em;
+    width: 10em;
+    margin: 0.2em;
+    /*float: left;*/
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    color: #fff;
+}
+
+.c4{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    /*float: left;*/
+    text-align: center;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #01B0F0;
+
+
+}
+.c5{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    /*float: left;*/
+    text-align: center;
+    border-radius: 20% 40%;
+    display: inline-block;
+    background-color: pink;
+}
+
+/*.c6{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid;
+    margin: 0.2em;
+    text-align: center;
+    border-radius: 20% 40%;
+    display: inline-block;
+    background-color: red;
+}*/
+
+section div:nth-child(18){
+    background-color: red;
+}
+
+.clear{
+    clear: both;
+}
