@@ -1,0 +1,106 @@
+header{
+    text-align: center;
+    color: brown;
+    font-size: 15px;
+
+}
+
+header img{
+    height: 200px;
+    width: 280px;
+    margin: 15px;
+    transition: margin 0.5s;
+    float: left;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+}
+
+nav{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+hr{
+    width: 600px;
+    border-top: 2px solid black;
+}
+
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: left;
+    font-size: 12px;
+}
+
+h4{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.container2{
+    margin: 50px 0 0 50px;
+
+}
+
+.container2 img{
+    height: 200px;
+    width: 280px;
+    margin: 15px;
+    transition: margin 0.5s;
+    float: right;
+}
+
+.container2 p, .container2 h2{
+    float: right;
+    padding-top: 5em;
+}
+
+.container3{
+    margin: 50px 0 0 50px;
+}
+
+.container3 img{
+    height: 200px;
+    width: 280px;
+    margin: 15px;
+    transition: margin 0.5s;
+    float: left;
+}
+
+.container4{
+    margin: 50px 0 0 50px;
+}
+
+.container4 img{
+    height: 200px;
+    width: 280px;
+    margin: 15px;
+    transition: margin 0.5s;
+    float: right;
+}
+
+.container4 p, .container4 h2{
+    float: right;
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+}
