@@ -1,4 +1,17 @@
-header{
+#logo_L{
+background-image: url('img/logo.jpg');
+height: 250px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#titre{
+    background-image: url('img/logo.jpg');
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*header{
     text-align: center;
     color: brown;
     font-size: 15px;
@@ -11,7 +24,7 @@ header img{
     margin: 15px;
     transition: margin 0.5s;
     float: left;
-}
+}*/
 
 h1{
     text-align: center;
