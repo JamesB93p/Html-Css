@@ -1,0 +1,67 @@
+header{
+    background: green;
+    height: 100px;
+    width: 740px;
+}
+
+nav{
+    background-color: blue;
+    width: 740px;
+}
+
+
+footer{
+    background-color: green;
+    width: 740px;
+    height: 100px;
+}
+
+.A, .B, .C{
+    float: left;
+    height: 200px;
+}
+
+.A{
+    background: red;
+    width: 200px;
+}
+
+.B{
+    background: orange;
+    width: 340px;
+}
+
+.C{
+    background: purple;
+    width: 200px;
+}
+
+.D{
+    background: pink;
+    height: 200px;
+    width: 740px;
+}
+
+.E, .F, .G{
+    float: left;
+    height: 200px;
+}
+
+.E{
+    background: yellow;
+    width: 200px;
+}
+
+.F{
+    background: grey;
+    width: 340px;
+}
+
+.G{
+    background: brown;
+    width: 200px;
+}
+
+ .clear{
+     clear: both;
+ }

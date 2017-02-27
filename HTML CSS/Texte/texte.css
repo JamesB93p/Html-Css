@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'finition_personal_use_onlyRg';
+    src: url('police/finition_personal_use_only-webfont.woff2') format('woff2'),
+         url('police/finition_personal_use_only-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'finition_personal_use_onlyRg';
+    font-size: 30px;
+}

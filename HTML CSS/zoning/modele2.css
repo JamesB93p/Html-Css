@@ -1,0 +1,35 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1000px;
+    background: red;
+    height: 100px;
+}
+
+.zoneGauche{
+    background: blue;
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+.zoneDroite{
+    background: yellow;
+    width: 200px;
+    height: 400px;
+    float: right;
+}
+
+.zoneMilieu{
+    background: green;
+    width: 600px;
+    height: 400px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,27 @@
+#conteneur{
+    width: 1000px;
+    margin: 0 auto;
+}
+footer{
+    width: 1000px;
+    background: red;
+    height: 100px;
+}
+
+.zoneGauche{
+    background: blue;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.zoneDroite{
+    background: yellow;
+    width: 50%;
+    height: 400px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
