@@ -1,0 +1,54 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Formulaire</title>
+        <link rel="stylesheet" href="formulaire.css" />
+    </head>
+    <body>
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="conteneur">
+
+                <fieldset>
+                    <legend>Information</legend>
+            <label for="nom">Nom</label><br />
+            <input type="text" id="nom" name="nom" placeholder="Nom"/><br />
+
+            <label for="Prenom" />Prenom</label><br />
+            <input type="text" id="prenom" name="prenom" placeholder="Prenom"/><br />
+
+            <label for="telephone">Telephone</label><br />
+            <input type="tel" pattern="[0-9]{10}" id="telephone" name="telephone" maxlength="10" placeholder="Telephone" /><br />
+
+            <label for="ville">Ville</label><br />
+            <input type="text" id="ville" name="ville" list="france" placeholder="Ville" />
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </datalist><br />
+
+            <label for="cp">Code Postal</label><br />
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9.]{5}" title="5 chiffres requis entre 0 et 9"  placeholder="Code Postal"/><br />
+
+            <label for="adresse">Adresse</label><br />
+            <textarea id="adresse" name="adresse" rows="5" cols="25" placeholder="Adresse"></textarea><br />
+                </fieldset>
+            </div>
+
+                <div class="conteneur2">
+                    <fieldset>
+                        <legend>Date de Naissance</legend>
+
+                        <label for="jour">Jour</label>
+                        <input type="text" id="jour" name="jour" list="1-31" />
+                        <datalist id="jour">
+                            <option>Paris</option>
+                            <option>Marseille</option>
+                            <option>Lyon</option>
+                        </datalist><br /><br />
+                    </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

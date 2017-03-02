@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+.Rechaut{
+    width: 700px;
+    background-color: red;
+    height: 40px;
+    float: left;
+    margin-top: 60px;
+}
+
+.RechautG{
+    width: 200px;
+    background-color: green;
+    float: left;
+}
+
+.RechautD{
+    background-color: yellow;
+    width: 50px;
+    text-align: right;
+    float: left;
+    height: 100px;
+
+}
+
+.conteneur{
+    width: 1150px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+nav a{
+    padding:  15px;
+    /*margin-top: 30px;*/
+
+}
+
+header{
+    border-bottom:2px solid blue;
+    height: 105px;
+}
+
+nav{
+    text-align: center;
+}
+
+h1{
+    color: #32628E;
+}
+
+h2{
+    color: #32628E;
+}

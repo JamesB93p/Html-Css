@@ -1,0 +1,146 @@
+body, p, div, header, footer, h1, h3, a{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+
+ul.fleche{
+    list-style-type: none;
+}
+
+ul.fleche li{
+    margin: 15px;
+    background: url(../img/fleche.jpg) left no-repeat;
+    padding: 0 0 0 32px;
+}
+
+header{
+    height: 100px;
+    background-color: #EDEDED;
+    border: 1px solid #B5C3C1;
+}
+
+.clear{
+    clear: both;
+}
+
+.Hautviolet{
+    width: 900px;
+    height: 100px;
+    margin-left: 30%;
+
+}
+
+.HautGauche, .HautDroit{
+    float: left;
+    height: 75px;
+}
+
+nav{
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+nav a{
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #EDEDED;
+    font-family: sans-serif;
+    background: grey;
+    padding: 0 10px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    background: black;
+    padding: 0 20px;
+}
+
+.HautGauche{
+    width: 600px;
+}
+
+.HautDroit{
+    width: 300px;
+}
+
+.HautDroit a{
+    margin-left: 150px;
+    color: black;
+}
+
+.RecGch, .RecDrt{
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.RecGch{
+    height: 712px;
+    width: 550px;
+    margin-left: 30%;
+}
+
+.RecDrt{
+    height: 712px;
+    width: 350px;
+}
+
+.MiniRec1, .MiniRec2, .MiniRec3{
+    float: right;
+    width: 250px;
+    height: 100px;
+    margin-top: 4%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: #EDEDED;
+    border: 1px solid #B5C3C1;
+}
+
+.Bas{
+    width: 900px;
+    height: 100px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+h3{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #EDEDED;
+    height: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+h2{
+    color: #B5C3C1;
+}
+
+#texte{
+    float: left;
+}
+
+input{
+    width: 420px;
+}
+
+textarea{
+    resize: none;
+}
+
+label{
+    float: left;
+    width: 200px;
+    clear: both;
+}
+
+#telecharger{
+    text-align: right;
+}

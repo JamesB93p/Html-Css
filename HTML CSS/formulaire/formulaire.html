@@ -5,9 +5,78 @@
         <link rel="stylesheet" href="formulaire.css" />
     </head>
     <body>
-        <form method="post" enctype="">
+        <form method="post" enctype="multipart/form-data">
             <label>Pseudo</label>
-            <input type="text" id="pseudo" name="pseudo" placeholder="pseudo" required />
+            <input type="text" id="pseudo" name="pseudo" placeholder="pseudo" required /><br /> <br />
+
+            <label for="mdp" />Mot de passe</label>
+            <input type="password" id="mdp" name="mdp" /><br /><br />
+
+            <label for="Prenom" />Prenom</label>
+            <input type="text" id="prenom" name="prenom" /><br /><br />
+
+            <label for="email" />Email</label>
+            <input type="email" id="email" name="email" /><br /><br />
+
+            <label for="avatar" />Avatar</label>
+            <input type="file" id="avatar" name="avatar" /><br /><br />
+
+            <label for="pays" />Pays</label>
+            <select id="pays">
+                <optgroup label="Europe">
+                    <option value="fr">France</option>
+                    <option value="it">Italie</option>
+                    <option value="es" selected>Espagne</option>
+                </optgroup>
+            </select><br /><br />
+
+            <label for="choix">Quel est votre fruit preferes ? </label>
+            <p>
+                <input type="checkbox" name="choix"> Orange
+                <input type="checkbox" name="choix"> Fraise
+                <input type="checkbox" name="choix" checked> Poire
+            </p>
+
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france" />
+            <datalist id="france">
+                <option>Paris</option>
+                <option>Marseille</option>
+                <option>Lyon</option>
+            </datalist><br /><br />
+
+            <label for="cp">Code Postal</label>
+            <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9.]{5}" title="5 chiffres requis entre 0 et 9" /><br /><br />
+
+            <label for="adresse">Adresse</label>
+            <textarea id="adresse" name="adresse" rows="5" cols="25"></textarea><br /><br />
+
+            <label for="datedenaissance">Date de naissance</label>
+            <input type="date" id="datedenaissance" name="datedenaissance" /><br /><br />
+
+            <label for="jauge">Jauge</label>
+            <input type="range" min="25" max="50" value="26" id="jauge" /><br /><br />
+
+            <label for="telephone">Telephone</label>
+            <input type="tel" pattern="[0-9]{10}" id="telephone" name="telephone" maxlength="10" /><br /><br />
+
+            <label for="recherche">Recherche</label>
+            <input type="text" pattern="[a-zA-Z0-9.-_]+" title="caractere autorisees : a-zA-Z0-9.-_" id="recherche" name="recherche" /><br /><br />
+
+            <label for="couleur">Couleur</label>
+            <input type="color" id="couleur" name="couleur" /><br /><br />
+
+            <label for="avatar">Avatar</label>
+            <input type="file" id="avatar" name="avatar" multiple /><br /><br />
+
+            <input type="hiden" id="cache" name="cache" /><br /><br />
+
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" value="test" disabled /><br /><br />
+
+            <input type="submit" name="inscription" value="s'inscrire" /><br /><br />
+
+            <input type="reset" name="efface" value="recommencer" /><br /><br />
         </form>
     </body>
 </html>
