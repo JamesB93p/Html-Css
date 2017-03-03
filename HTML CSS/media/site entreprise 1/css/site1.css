@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+}
+header{
+    height: 100px;
+    background-color: #E2E2E2;
+    border-bottom: 2px solid #4E9CFF;
+}
+
+.conteneur{
+    width: 1000px;
+    height: 100px;
+    background-color: #E2E2E2;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 100px;
+    background-color: #E2E2E2;
+    width: 150px;
+    float: left;
+}
+
+#logo1{
+    height: 100px;
+    width: 130px;
+}
+
+.texte{
+    height: 100px;
+    width: 300px;
+    background-color: #E2E2E2;
+    float: left;
+}
+
+.texte h1{
+    color: white;
+}
+
+.contact{
+    height: 100px;
+    width: 200px;
+    background-color: #E2E2E2;
+    float: right;
+}
+
+h3{
+    color: #5CC0FA;
+}
+
+.contact p{
+    color: grey;
+}
+
+nav{
+    border-bottom: 2px solid #4E9CFF;
+    height: 30px;
+    background-color: pink;
+    text-align: center;
+    background-color: #92C9FE;
+}
+
+nav a{
+    padding:  15px;
+    color: white;
+}
+
+.conteneur2{
+    height: 700px;
+    width: 990px;
+    background-color: #FAF7F8;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.milieuG{
+    height: 700px;
+    width: 620px;
+    background-color: #FAF7F8;
+    float: left;
+    padding: 2px;
+}
+
+
+.part1{
+    height: 350px;
+    width: 620px;
+    background-color: #FAF7F8;
+    border-bottom: 2px solid #919191;
+}
+
+#entreprise{
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+.part1 p{
+    font-size: 23.5px;
+}
+
+.part2{
+    height: 350px;
+    width: 620px;
+    background-color: #FAF7F8;
+}
+
+.part2 p, ul{
+    font-size: 21px;
+}
+
+.milieuD{
+    height: 695px;
+    width: 355px;
+    background-color: #01B0F0;
+    float: right;
+    padding: 5px;
+}
+
+.haut{
+    height: 230px;
+    width: 350px;
+    background-color: #663E10;
+    margin-right: 5px;
+}
+
+.milieu{
+    height: 230px;
+    width: 350px;
+    background-color: #495CFF;
+    margin-right: 5px;
+}
+
+.bas{
+    height: 230px;
+    width: 350px;
+    background-color: #63FFB2;
+    margin-right: 5px;
+}
+
+footer{
+    height: 100px;
+    background-color: #38040C;
+}
+
+.foot{
+    height: 100px;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #FF5900;
+}
