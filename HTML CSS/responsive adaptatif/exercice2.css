@@ -1,0 +1,61 @@
+.conteneur{
+    width: 80%;
+    background: #40A497;
+    margin: 0 auto;
+    color: #fff;
+}
+header{
+    background-color: #A4409A;
+    min-height: 15vh;
+}
+nav{
+    background-color: yellow;
+    height: 5vh;
+}
+section{
+    background: #89297c;
+    min-height: 50%;
+}
+.a, .c, .e, .g{
+    width: 25%;
+    float: left;
+    min-height: 20vh;
+}
+.b, .f{
+    width: 50%;
+    float: left;
+    min-height: 20vh;
+}
+
+.clear{
+    clear: both;
+}
+.a{
+    background-color: red;
+}
+.b{
+    background-color: blue;
+}
+.c{
+    background-color: green;
+}
+.d{
+    width: 100%;
+    float: left;
+    min-height: 20vh;
+    background-color: pink;
+}
+.e{
+    background-color: purple;
+
+}
+.f{
+    background-color: brown;
+}
+.g{
+    background-color: grey;
+}
+footer{
+    background-color: #E80B28;
+    min-height: 15vh;
+}
