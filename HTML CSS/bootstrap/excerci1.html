@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Grille bootstrap</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="http://code.jquery.com/com/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <meta name="viewport" content="width=device_width, initial-scale=1">
+    </head>
+    <body>
+        <!-- la class .container prédéfinie dans la feuille de style bootstrap.css(à laquelle nous sommes reliés) permet d'englober le reste de notre code et de le centrer sur la page web
+
+        la classe .row prédéfinie dans la feuille de style bootstrap.css permet de prendre une ligne dans notre grille
+
+        col veut dire colonne
+        md veut dire midle
+        1 veut dire 1 emplacement, les chiffres s'expriment en nombre d'emplacement, cette parti variable pourra prendre les valeurs suivantes: 1 2 3 4 5 6 7 8 9 10 11 12
+        1. xs= extra small screen (mobile, petit ecran) -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 bordureRouge">
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 bordureVerte">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5 bordureJaune">
+            </div>
+        </div>
+            <div class="row">
+                    <div class="col-md-3 bordureRouge"></div>
+                    <div class="col-md-3 bordureVerte"></div>
+                    <div class="col-md-3 bordureJaune"></div>
+                    <div class="col-md-3 bordureOrange"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 bordureBleu">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-2 bordureRouge"></div>
+                <div class="col-md-3 col-md-offset-2 bordureVerte"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 bordureOrange"></div>
+                <div class="col-xs-6 bordureRouge"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-6 bordureVerte"></div>
+                <div class="col-xs-6 bordureBleu"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 bordureVerte"></div>
+                <div class="col-lg-6 bordureBleu"></div>
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br />
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-1 bordureRouge"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 bordureVerte"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-1 bordureOrange"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 bordureBleu"></div>
+            </div>
+        </div>
+            <br /><br /><br /><br /><br /><br /><br /><br />
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6 bordureOrange"></div>
+                    <div class="col-xs-6 bordureRouge"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 bordureVerte"></div>
+                    <div class="col-lg-6 bordureBleu"></div>
+                </div>
+            </div>
+            <br /><br /><br /><br /><br /><br /><br /><br />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 bordureRouge">Colonne 1</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-sm-8 bordureVerte">Colonne 2</div>
+                </div>
+            </div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 bordureRouge">
+                        <div class="col-md-2 bordureRouge header"></div>
+                    <div class="col-md-6 col-md-offset-1 bordureRouge header"></div>
+                    <div class="col-md-2 col-md-offset-1 bordureRouge header"></div>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-md-12 bordureOrange nav"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 bordureBleu">
+                <div class="col-md-2 bordureBleu section1"></div>
+            <div class="col-md-6 col-md-offset-1 bordureBleu section2"></div>
+            <div class="col-md-2 col-md-offset-1 bordureBleu section3"></div>
+        </div>
+
+            <div class="col-md-12 bordureVerte">
+                <div class="col-md-2 bordureVerte footer"></div>
+            <div class="col-md-6 col-md-offset-1 bordureVerte footer"></div>
+            <div class="col-md-2 col-md-offset-1 bordureVerte footer"></div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

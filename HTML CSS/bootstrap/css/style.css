@@ -1,0 +1,51 @@
+.container{
+    border: 1px solid;
+}
+.bordureRouge{
+    border: 3px solid red;
+    padding: 10px;
+}
+
+.bordureVerte{
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.bordureBleu{
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.bordureJaune{
+    border: 3px solid yellow;
+    padding: 10px;
+}
+
+.bordureOrange{
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+.header{
+    height: 80px;
+}
+
+.nav{
+    height: 20px;
+}
+
+.section1{
+    height: 500px;
+}
+
+.section2{
+    height: 500px;
+}
+
+.section3{
+    height: 500px;
+}
+
+.footer{
+    height: 30px;
+}
