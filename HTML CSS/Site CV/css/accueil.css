@@ -16,7 +16,7 @@ ul.fleche li{
 }
 
 header{
-    height: 100px;
+    height: 130px;
     background-color: #EDEDED;
     border: 1px solid #B5C3C1;
 }
@@ -39,24 +39,25 @@ header{
 
 nav{
     margin: 0 auto;
-    padding-left: 150px;
+    padding-left: 200px;
+    padding-top: 20px;
 }
 
 nav a{
-    height: 20px;
+    height: 30px;
     line-height: 20px;
     text-decoration: none;
     color: #EDEDED;
     font-family: sans-serif;
     background: grey;
-    padding: 0 10px;
+    padding: 0 40px;
     transition: 1s;
     border-radius: 5px;
 }
 
 nav a:hover{
     background: black;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .HautGauche{
