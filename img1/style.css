@@ -42,7 +42,7 @@ header{
 .ordi{
     height: 200px;
     width: 1000px;
-    background-color: pink;
+    background-color: #FFFFFF;
     margin-left: 450px;
     margin-top: 30px;
 }
@@ -50,16 +50,34 @@ header{
 .responsive{
     height: 200px;
     width: 350px;
-    background-color: brown;
+    background-color: #FFFFFF;
     float: left;
 }
 
+.responsive1{
+    height: 200px;
+    width: 350px;
+}
+
+h2{
+    border-top: 2px solid #88A1B0;
+    border-bottom: 2px solid #88A1B0;
+    color: #88A1B0;
+}
+
 .texte1{
+    text-align: center;
     height: 200px;
     width: 600px;
     margin-left: 50px;
     float: left;
-    background-color: purple;
+    background-color: #FFFFFF;
+}
+
+.texte1 p{
+    margin-top: 50px;
+    text-align: center;
+    color: #A0B4C0;
 }
 
 .presentation{
@@ -67,15 +85,27 @@ header{
     width: 650px;
     margin-left: 450px;
     margin-top: 10px;
-    background-color: violet;
+    background-color: #FFFFFF;
 }
 
 .profil{
+    padding: 2px;
     height: 150px;
     width: 650px;
     margin-left: 450px;
     margin-top: 10px;
-    background-color: #046380;
+    background-color: #FFFFFF;
+}
+
+.profil1{
+    float: left;
+}
+
+.profil p{
+    padding-left: 8vw;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: justify;
 }
 
 .basprofil{
@@ -83,20 +113,24 @@ header{
     width: 650px;
     margin-left: 450px;
     margin-top: 10px;
-    background-color: #4C1B1B;
+    background-color: #FFFFFF;
+}
+
+.basprofil h2{
+    text-align: center;
 }
 
 .graphisme{
     height: 40px;
     width: 150px;
-    background-color: #AEEE00;
+    background-color: #FFFFFF;
     float: left;
 }
 
 .integration{
     height: 40px;
     width: 150px;
-    background-color: #84815B;
+    background-color: #FFFFFF;
     margin-left: 15px;
     float: left;
 }
@@ -104,7 +138,7 @@ header{
 .developpement{
     height: 40px;
     width: 150px;
-    background-color: #F7F2B2;
+    background-color: #FFFFFF;
     margin-left: 15px;
     float: left;
 }
@@ -112,7 +146,7 @@ header{
 .referencement{
     height: 40px;
     width: 155px;
-    background-color: #EDF7F2;
+    background-color: #FFFFFF;
     margin-left: 15px;
     float: left;
 }
@@ -126,9 +160,15 @@ header{
 }
 
 .design{
-    height: 100px;
-    width: 150px;
+    /*height: 100px;*/
+    /*width: 150px;*/
     background-color: #FF5B2B;
+    float: left;
+}
+
+.design1{
+    /*height: 150px;
+    width: 150px;*/
     float: left;
 }
 
